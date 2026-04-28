@@ -34,3 +34,11 @@ npm run test:watch
 
 # Coverage report
 npm run test:coverage
+
+*Base URL:** https://tobamsassessment-production.up.railway.app/health
+
+## Validate Card
+curl -X POST https://your-app.up.railway.app/api/validate \
+  -H "Content-Type: application/json" \
+  -d '{"cardNumber": "4532 0151 1283 0366"}'
+
